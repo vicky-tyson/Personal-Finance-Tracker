@@ -46,12 +46,12 @@ const forMonth = localStorage.getItem('month').toUpperCase();
 
   return (
     <div>
-        <section class="bg-gray-50 dark:bg-gray-900 h-screen p-3 sm:p-5">
-    <div class="mx-auto max-w-screen-xl px-4 lg:px-12">
-        <div class="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
-            <div class="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
-                <div class="w-full  md:w-1/2">
-                    <div class="flex items-center text-xl">
+        <section className="bg-gray-50 dark:bg-gray-900 h-screen p-3 sm:p-5">
+    <div className="mx-auto max-w-screen-xl px-4 lg:px-12">
+        <div className="bg-white dark:bg-gray-800 relative shadow-md sm:rounded-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0 md:space-x-4 p-4">
+                <div className="w-full  md:w-1/2">
+                    <div className="flex items-center text-xl">
                         <div className="flex w-full text-white font-bold">
                             <p>Your Income : {USERINCOME}</p>
                         </div>
@@ -60,7 +60,7 @@ const forMonth = localStorage.getItem('month').toUpperCase();
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
+                <div className="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 items-stretch md:items-center justify-end md:space-x-3 flex-shrink-0">
                     <button type="button" class="flex items-center justify-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800" onClick={() => setShowPopup(true)}>
                         + Add Transactions
                     </button>
